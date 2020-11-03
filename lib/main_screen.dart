@@ -10,6 +10,9 @@ class MainScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(title: Text(title)),
         body: Center(
-            child: Text(title, style: Theme.of(context).textTheme.headline)));
+            child: Padding(
+          padding: EdgeInsets.all(100.0),
+          child: Placeholder(),
+        )));
   }
 }
